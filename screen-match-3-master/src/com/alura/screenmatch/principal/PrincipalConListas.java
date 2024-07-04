@@ -33,7 +33,7 @@ public class PrincipalConListas {
 
         }
 
-        List<String> listaDeArtistas = new ArrayList<>();
+        List<String> listaDeArtistas = new LinkedList<>();
         listaDeArtistas.add("Americo");
         listaDeArtistas.add("Juan");
         listaDeArtistas.add("Alberto");
