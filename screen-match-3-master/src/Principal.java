@@ -66,6 +66,7 @@ public class Principal {
 
         System.out.println(listaDePeliculas);
 
+        var peliculaDeAmerico = new Pelicula();
 
     }
 }
