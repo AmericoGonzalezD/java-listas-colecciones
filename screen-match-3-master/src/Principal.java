@@ -8,8 +8,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula();
-        miPelicula.setNombre("Encanto");
+        Pelicula miPelicula = new Pelicula("Encanto");
         miPelicula.setFechaDeLanzamiento(2021);
         miPelicula.setDuracionEnMinutos(180);
         System.out.println("Duración de la película: " + miPelicula.getDuracionEnMinutos());
@@ -31,8 +30,7 @@ public class Principal {
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duracion de la série: " + lost.getDuracionEnMinutos());
 
-        Pelicula otraPelicula = new Pelicula();
-        otraPelicula.setNombre("Avatar");
+        Pelicula otraPelicula = new Pelicula("Avatar");
         otraPelicula.setFechaDeLanzamiento(2023);
         otraPelicula.setDuracionEnMinutos(200);
 
@@ -51,8 +49,7 @@ public class Principal {
         episodio.setTotalVisualizaciones(300);
         filtro.filtra(episodio);
 
-        var peliculaDeAmerico = new Pelicula();
-        peliculaDeAmerico.setNombre("El señor de los anillos");
+        var peliculaDeAmerico = new Pelicula("El señor de los anillos");
         peliculaDeAmerico.setDuracionEnMinutos(180);
         peliculaDeAmerico.setFechaDeLanzamiento(2001);
 
