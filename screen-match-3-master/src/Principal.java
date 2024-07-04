@@ -66,6 +66,6 @@ public class Principal {
 
         System.out.println(listaDePeliculas);//me da la direcciones de cada objeto de la lista
 
-        System.out.println(listaDePeliculas.get(0).toString());
+        System.out.println("To string de la pelicula: "+listaDePeliculas.get(0).toString());
     }
 }
