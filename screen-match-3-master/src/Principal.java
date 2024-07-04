@@ -51,22 +51,12 @@ public class Principal {
         episodio.setTotalVisualizaciones(300);
         filtro.filtra(episodio);
 
-        var peliculaDeBruno = new Pelicula();
-        peliculaDeBruno.setNombre("El señor de los anillos");
-        peliculaDeBruno.setDuracionEnMinutos(180);
-        peliculaDeBruno.setFechaDeLanzamiento(2001);
-
-        ArrayList<Pelicula> listaDePeliculas = new ArrayList<>();
-        listaDePeliculas.add(peliculaDeBruno);
-        listaDePeliculas.add(miPelicula);
-        listaDePeliculas.add(otraPelicula);
-
-        System.out.println("Tamaño de la lista: " + listaDePeliculas.size());
-        System.out.println("La primera pelicula es: " + listaDePeliculas.get(0).getNombre());
-
-        System.out.println(listaDePeliculas);
-
         var peliculaDeAmerico = new Pelicula();
+        peliculaDeAmerico.setNombre("El señor de los anillos");
+        peliculaDeAmerico.setDuracionEnMinutos(180);
+        peliculaDeAmerico.setFechaDeLanzamiento(2001);
+
+
 
     }
 }
