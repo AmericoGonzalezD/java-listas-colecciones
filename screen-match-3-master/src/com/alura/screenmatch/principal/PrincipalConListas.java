@@ -7,6 +7,7 @@ import com.alura.screenmatch.modelos.Titulo;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class PrincipalConListas {
     public static void main(String[] args) {
@@ -49,5 +50,9 @@ public class PrincipalConListas {
 
         Collections.sort(lista);
         System.out.println("Lista ordenada de titulos ordenados: "+lista);
+
+        //se le pasa un comparator a sort que es una interfaz al que se le pasa la fecha de lanzamiento
+        lista.sort(Comparator.comparing(Titulo::getFechaDeLanzamiento));
+        System.out.println("Lista ordenada por fecha: "+lista);
     }
 }
