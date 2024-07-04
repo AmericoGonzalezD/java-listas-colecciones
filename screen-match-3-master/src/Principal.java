@@ -56,6 +56,15 @@ public class Principal {
         peliculaDeAmerico.setDuracionEnMinutos(180);
         peliculaDeAmerico.setFechaDeLanzamiento(2001);
 
+        ArrayList<Pelicula> listaDePeliculas = new ArrayList<>();//<>Tipo de dato del array
+        listaDePeliculas.add(peliculaDeAmerico);
+        listaDePeliculas.add(miPelicula);
+        listaDePeliculas.add(otraPelicula);
+
+        System.out.println("Tamaño de la lista: " + listaDePeliculas.size());//conocer el tamaño de la lista
+        System.out.println("La primera pelicula es: " + listaDePeliculas.get(0).getNombre());//obtener el primer elemento
+
+        System.out.println(listaDePeliculas);
 
 
     }
